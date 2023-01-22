@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="global.css">
+  <title>Foguinho Eletrônicos</title>
+</head>
+
+<body class="body">
+      <div class="login">
+        <a href="/foguinho-eletronicos.html"><img src="img/frigo.png" alt="Foguinho Logo"> </img></a>
+        <h1>Login</h1>
+        <input type="text" placeholder="E-mail" id="login">
+        <br><br>
+        <input type="password" placeholder="Senha" id="senha">
+        <br><br>
+        <button onclick="logar()">Logar</button>
+        <br><br>
+        <a class="cadastro" href="">Cadastre-se</a>
+      </div>
+</body>
+
+<script>
+    var login = document.getElementById('email').value;
+    var senha = document.getElementById('senha').value;
+    function logar(){
+        if (login == "admin" && senha == "admin"){
+            alert('Você logou.');
+            location.href("/foguinho-eletronicos.html")
+        }else{
+          alert('nao deu')
+        }
+      }
+
+</script>
+
+</html>
