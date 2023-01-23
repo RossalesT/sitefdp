@@ -1,0 +1,41 @@
+{
+    "produtos":[  
+       {
+          "id": 1,
+          "nome":"Azzio MK RETRO Mechanical",
+          "preco":1299.90,
+          "avista": "Á vista no PIX",
+          "parcelado": "ou em até 12x de 108,32",
+          "foto":"miDaTesao.png",
+          "link": "prod-pag1.html"
+       },
+       {
+         "id": 2,
+         "nome":"Steelseries Artics 3",
+         "preco": 549.90,
+         "avista": "Á vista no PIX",
+         "parcelado": "ou em até 12x de 45,84",
+         "foto":"fone.png",
+         "link": "prod-pag2.html"
+      },
+      {
+         "id": 3,
+         "nome":"Mouse Razer Naga Trinity",
+         "preco":699.00,
+         "avista": "Á vista no PIX",
+         "parcelado": "ou em até 12x de 58,25",
+         "foto":"rezeer.png",
+         "link": "prod-pag3.html"
+      },
+      {
+         "id": 0,
+         "nome":"Monitor Eye Care",
+         "preco":1156.00,
+         "avista": "Á vista no PIX",
+         "parcelado": "ou em até 12x de 128,84",
+         "foto":"benq (1).png",
+         "link": "prod-pag4.html"
+      }
+      
+    ]
+ }
